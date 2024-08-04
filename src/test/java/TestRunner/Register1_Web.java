@@ -7,8 +7,8 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features= {"Login_Web.feature"},
-		glue= {"Login_Web.java"},
+		features= {"Register1_WEB.feature"},
+		glue= {"Register1_WEB.java"},
 		monochrome=false,
 		dryRun=true
 		)
