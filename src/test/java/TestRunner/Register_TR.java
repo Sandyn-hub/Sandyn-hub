@@ -8,8 +8,8 @@ import io.cucumber.junit.CucumberOptions;
 @RunWith(Cucumber.class)
 @CucumberOptions(
 		
-		features= {""},
-		glue= {""},
+		features= {"Register.feature"},
+		glue= {"Register.java"},
 		dryRun=false,
 		monochrome=true
 		)
